@@ -1,0 +1,24 @@
+{
+  "name": "jajanjawa/rumah",
+  "description": "rumah digital",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Irwantoro",
+      "email": "exploder.irwan@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "3.12.1",
+    "morris/lessql": "0.4.1",
+    "monolog/monolog": "1.24.0",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "jajanjawa\\rumah\\": "src"
+    }
+  }
+}
